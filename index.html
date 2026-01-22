@@ -4,7 +4,7 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>The Three Demons | Playeras Personalizadas</title>
-  <meta name="description" content="The Three Demons: playeras personalizadas con sublimación en CDMX. Estilo urbano, oscuro y agresivo." />
+  <meta name="description" content="The Three Demons: sublimación de playeras en CDMX. Playeras personalizadas y de catálogo estilo urbano/oscuro." />
   <link rel="stylesheet" href="styles.css" />
 </head>
 
@@ -12,14 +12,19 @@
   <!-- HEADER -->
   <header class="header">
     <div class="container nav">
-      <a class="logo" href="#inicio">The Three <span>Demons</span></a>
+      <!-- Logo tipográfico -->
+      <a class="brand" href="#inicio" aria-label="The Three Demons">
+        <span class="brand-top">THE THREE</span>
+        <span class="brand-main">DEMONS</span>
+        <span class="brand-sub">Sublimación • Streetwear</span>
+      </a>
 
-      <button class="menu-btn" id="menuBtn">☰</button>
+      <button class="menu-btn" id="menuBtn" aria-label="Abrir menú">☰</button>
 
       <nav class="menu" id="menu">
         <a href="#servicios">Servicios</a>
         <a href="#catalogo">Catálogo</a>
-        <a href="#nosotros">Nosotros</a>
+        <a href="#precios">Precios</a>
         <a href="#contacto" class="btn small">Cotizar</a>
       </nav>
     </div>
@@ -34,26 +39,29 @@
         <h1>The Three <span>Demons</span></h1>
 
         <p class="lead">
-          Playeras personalizadas con diseño oscuro, urbano y agresivo.
-          Trae tu idea o elige del catálogo.
+          Playeras personalizadas con estética urbana y oscura.
+          Trae tu idea o elige del catálogo. Calidad, contraste y presencia.
         </p>
 
         <div class="hero-actions">
           <a class="btn" href="#contacto">Cotizar ahora</a>
-          <a class="btn ghost" href="#catalogo">Ver catálogo</a>
+          <a class="btn ghost" href="#precios">Ver precios</a>
         </div>
 
         <div class="stats">
           <div class="stat"><strong>Alta</strong><span>calidad</span></div>
           <div class="stat"><strong>Desde 1</strong><span>pieza</span></div>
-          <div class="stat"><strong>Entrega</strong><span>CDMX</span></div>
+          <div class="stat"><strong>Volumen</strong><span>por lote</span></div>
         </div>
       </div>
 
       <div class="card hero-card">
-        <h3>Cómo trabajamos</h3>
+        <h3>Pedido rápido</h3>
+        <p class="muted">
+          Mándanos: modelo, talla, color y cantidad. Te respondemos rápido.
+        </p>
         <ul class="checklist">
-          <li>🔥 Diseño personalizado</li>
+          <li>🔥 Personalizadas (tu idea)</li>
           <li>🔥 Catálogo exclusivo</li>
           <li>🔥 Pedidos por volumen</li>
         </ul>
@@ -67,23 +75,44 @@
     <div class="container">
       <div class="section-head">
         <h2>Servicios</h2>
-        <p>Streetwear con identidad.</p>
+        <p>Streetwear con identidad: oscuro, agresivo y bien impreso.</p>
       </div>
 
       <div class="grid3">
         <article class="card">
           <h3>Playeras Personalizadas</h3>
-          <p>Tu diseño, tu estilo, nuestra impresión.</p>
+          <p>
+            Tú traes la idea. Nosotros la acomodamos para que se vea brutal y se imprima bien.
+          </p>
+          <ul class="mini">
+            <li>• Desde 1 pieza</li>
+            <li>• Asesoría en diseño</li>
+            <li>• Tallas variadas</li>
+          </ul>
         </article>
 
         <article class="card">
           <h3>Catálogo Demons</h3>
-          <p>Diseños listos con identidad oscura.</p>
+          <p>
+            Diseños listos con la vibra de la marca. Elige modelo y talla.
+          </p>
+          <ul class="mini">
+            <li>• Diseños exclusivos</li>
+            <li>• Estilo urbano/oscuro</li>
+            <li>• Rápido y directo</li>
+          </ul>
         </article>
 
         <article class="card">
           <h3>Pedidos por Volumen</h3>
-          <p>Eventos, marcas y equipos.</p>
+          <p>
+            Para eventos, equipos o drops. Cotizamos por cantidad y diseño.
+          </p>
+          <ul class="mini">
+            <li>• Precio por lote</li>
+            <li>• Consistencia</li>
+            <li>• Entrega CDMX</li>
+          </ul>
         </article>
       </div>
     </div>
@@ -94,31 +123,106 @@
     <div class="container">
       <div class="section-head">
         <h2>Catálogo (demo)</h2>
-        <p>Próximamente fotos reales.</p>
+        <p>Luego metemos fotos reales. Por ahora: modelos + concepto.</p>
       </div>
 
       <div class="grid3">
-        <div class="work"><div class="work-thumb">🔥</div><h4>Inferno</h4></div>
-        <div class="work"><div class="work-thumb">😈</div><h4>Red Demon</h4></div>
-        <div class="work"><div class="work-thumb">🩸</div><h4>Black Flame</h4></div>
+        <article class="work">
+          <div class="work-thumb">🔥</div>
+          <h4>Inferno</h4>
+          <p class="muted">Contraste alto • Naranja/rojo</p>
+        </article>
+
+        <article class="work">
+          <div class="work-thumb">😈</div>
+          <h4>Red Demon</h4>
+          <p class="muted">Rojo intenso • Street</p>
+        </article>
+
+        <article class="work">
+          <div class="work-thumb">🩸</div>
+          <h4>Black Flame</h4>
+          <p class="muted">Oscuro • Minimal</p>
+        </article>
       </div>
     </div>
   </section>
 
-  <!-- NOSOTROS -->
-  <section id="nosotros" class="section">
-    <div class="container two-col">
-      <div>
-        <h2>Sobre nosotros</h2>
-        <p>
-          The Three Demons es una marca urbana nacida en CDMX,
-          enfocada en sublimación de playeras con estética oscura.
-        </p>
+  <!-- PRECIOS -->
+  <section id="precios" class="section">
+    <div class="container">
+      <div class="section-head">
+        <h2>Precios</h2>
+        <p>Precios base (puedes ajustarlos). Dale “Pedir” y se arma el mensaje en WhatsApp.</p>
       </div>
 
-      <div class="card">
-        <h3>Ubicación</h3>
-        <p class="muted">CDMX, México</p>
+      <div class="grid3">
+        <article class="card price-card">
+          <div class="badge">MÁS PEDIDA</div>
+          <h3>Personalizada (1 pieza)</h3>
+          <p class="price">$199 <span>MXN</span></p>
+          <p class="muted">Incluye impresión + ajuste básico del diseño.</p>
+
+          <div class="opt-row">
+            <label for="talla1">Talla</label>
+            <select id="talla1">
+              <option>CH</option><option>M</option><option>G</option><option>XG</option>
+            </select>
+          </div>
+
+          <button class="btn full"
+            onclick="orderWhatsApp('Personalizada (1 pieza)','199', document.getElementById('talla1').value)">
+            Pedir por WhatsApp
+          </button>
+          <p class="muted tiny">*Precio base. Puede variar por diseño especial o cantidad.</p>
+        </article>
+
+        <article class="card price-card">
+          <div class="badge alt">CATÁLOGO</div>
+          <h3>Playera de Catálogo</h3>
+          <p class="price">$249 <span>MXN</span></p>
+          <p class="muted">Elige modelo del catálogo + talla.</p>
+
+          <div class="opt-row">
+            <label for="modelo2">Modelo</label>
+            <select id="modelo2">
+              <option>Inferno</option><option>Red Demon</option><option>Black Flame</option>
+            </select>
+          </div>
+
+          <div class="opt-row">
+            <label for="talla2">Talla</label>
+            <select id="talla2">
+              <option>CH</option><option>M</option><option>G</option><option>XG</option>
+            </select>
+          </div>
+
+          <button class="btn full"
+            onclick="orderWhatsApp('Catálogo', '249', document.getElementById('talla2').value, document.getElementById('modelo2').value)">
+            Pedir por WhatsApp
+          </button>
+          <p class="muted tiny">*Stock según tallas. Pregunta disponibilidad.</p>
+        </article>
+
+        <article class="card price-card">
+          <div class="badge danger">VOLUMEN</div>
+          <h3>Pedido por Volumen</h3>
+          <p class="price">Desde $149 <span>MXN</span></p>
+          <p class="muted">Ideal para eventos, equipos o drops.</p>
+
+          <div class="opt-row">
+            <label for="cantidad3">Cantidad</label>
+            <select id="cantidad3">
+              <option>10+</option><option>20+</option><option>50+</option><option>100+</option>
+            </select>
+          </div>
+
+          <button class="btn full"
+            onclick="orderWhatsApp('Volumen', 'Desde 149', 'Varias', null, document.getElementById('cantidad3').value)">
+            Cotizar volumen
+          </button>
+          <p class="muted tiny">*Depende de cantidad, diseño y tiempos.</p>
+        </article>
       </div>
     </div>
   </section>
@@ -128,15 +232,45 @@
     <div class="container two-col">
       <div>
         <h2>Contacto</h2>
-        <p>Escríbenos por WhatsApp para cotizar.</p>
-        <p class="muted">📱 55 1045 9053</p>
+        <p>Escríbenos por WhatsApp para cotizar. CDMX.</p>
+
+        <div class="contact-cards">
+          <div class="card mini-card">
+            <strong>📍 Zona</strong>
+            <p class="muted">CDMX, México</p>
+          </div>
+          <div class="card mini-card">
+            <strong>📱 WhatsApp</strong>
+            <p class="muted">55 1045 9053</p>
+          </div>
+          <div class="card mini-card">
+            <strong>🔥 Marca</strong>
+            <p class="muted">The Three Demons</p>
+          </div>
+        </div>
       </div>
 
       <form class="card form" onsubmit="return handleSubmit(event)">
-        <label>Nombre<input required name="nombre"></label>
-        <label>WhatsApp<input required name="telefono"></label>
-        <label>Mensaje<textarea required name="mensaje"></textarea></label>
-        <button class="btn full">Enviar</button>
+        <h3>Solicitar cotización</h3>
+
+        <label>
+          Nombre
+          <input required name="nombre" placeholder="Tu nombre" />
+        </label>
+
+        <label>
+          WhatsApp
+          <input required name="telefono" placeholder="Ej: 55 1234 5678" />
+        </label>
+
+        <label>
+          Mensaje
+          <textarea required name="mensaje" rows="5"
+            placeholder="Ej: Quiero 2 playeras modelo Inferno talla M..."></textarea>
+        </label>
+
+        <button class="btn full" type="submit">Enviar por WhatsApp</button>
+        <p class="muted tiny">*Solo abre WhatsApp con el mensaje listo.</p>
       </form>
     </div>
   </section>
@@ -144,13 +278,27 @@
   <!-- FOOTER -->
   <footer class="footer">
     <div class="container footer-grid">
-      <p>© <span id="year"></span> The Three Demons</p>
+      <div class="footer-brand">
+        <span class="footer-title">THE THREE DEMONS</span>
+        <span class="footer-sub muted">Sublimación • Streetwear • CDMX</span>
+        <p class="muted">© <span id="year"></span> The Three Demons</p>
+      </div>
+
+      <div class="footer-links">
+        <a href="#servicios">Servicios</a>
+        <a href="#catalogo">Catálogo</a>
+        <a href="#precios">Precios</a>
+        <a href="#contacto">Contacto</a>
+      </div>
     </div>
   </footer>
 
+  <!-- WhatsApp Floating Button -->
   <a class="wa-float"
      href="https://wa.me/525510459053?text=Hola%20quiero%20cotizar%20playeras%20The%20Three%20Demons"
-     target="_blank">WhatsApp</a>
+     target="_blank" rel="noreferrer">
+    WhatsApp
+  </a>
 
   <script src="script.js"></script>
 </body>
